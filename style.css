@@ -1,0 +1,66 @@
+body {
+    background: aqua;
+    text-align: center;
+}
+
+iframe {
+    width: 95%;
+    height: 100%;
+    visibility: hidden;
+}
+
+input {
+    height: 10%;
+    width: 90%;
+    font-size: 30px;
+}
+
+#butt {
+    background: rgb(0, 174, 255);
+    height: 10%;
+    width: 25%;
+    font-size: calc(30px + 1.5vw);
+    border-radius: 9%;
+    align-self: center;
+    min-height: 15%;
+    text-decoration: bold;
+    transition: 0.7s;
+}
+
+#butt:hover {
+    background: rgb(21, 255, 0);
+    height: 18%;
+    width: 20%;
+    font-size: calc(30px + 1.5vw);
+    border-radius: 9%;
+    align-self: center;
+    min-height: 20%;
+    text-decoration: bold;
+    transition: 0.7s;
+}
+
+#FFFF {
+    text-align: center;
+    align-items: center;
+}
+
+.row {
+    text-align: center;
+    align-items: center;
+}
+
+div {
+    background: aquamarine;
+}
+
+img {
+    height: 55%;
+    width: 75%;
+    transition: 0.7s;
+}
+
+img:hover {
+    height: 55%;
+    width: 56%;
+    transition: 0.7s;
+}
